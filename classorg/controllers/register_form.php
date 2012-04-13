@@ -1,8 +1,4 @@
-<?php require_once('controllers/header.php'); ?>
 
-<script type="text/javascript">
-	
-</script>
 
 <form id='register' action='register.php' method='post' accept-charset='UTF-8'>
 	<fieldset >
