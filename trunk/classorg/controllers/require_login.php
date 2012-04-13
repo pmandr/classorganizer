@@ -9,7 +9,7 @@
 				<br/>
 				<input type="button" id="try_login" name ="try_login" value='Entrar' onclick="return validateLoginRequest();"/>
 				<br/>
-				<input type="button" id="register" value='Não sou cadastrado' onclick="location.href='controllers/register_form.php'"/>
+				<input type="button" id="register" value='Não sou cadastrado' onclick="window.location='controllers/register_form.php'"/>
 				<br/>
 			</form>
 		</div>
