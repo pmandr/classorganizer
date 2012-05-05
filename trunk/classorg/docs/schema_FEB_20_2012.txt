@@ -1,0 +1,9 @@
+CREATE TABLE  `classorganizer`.`user` (
+`login` VARCHAR( 128 ) CHARACTER SET armscii8 COLLATE armscii8_general_ci NOT NULL COMMENT  'login = email',
+`name` VARCHAR( 32 ) CHARACTER SET armscii8 COLLATE armscii8_general_ci NULL ,
+`password` VARCHAR( 16 ) CHARACTER SET armscii8 COLLATE armscii8_general_ci NOT NULL ,
+`first_access` DATETIME NULL ,
+`last_access` DATETIME NULL ,
+PRIMARY KEY (  `login` )
+) ENGINE = INNODB COMMENT =  'definition of the client user';
+
