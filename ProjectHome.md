@@ -1,0 +1,1 @@
+um assistente de geração de grades horárias
